@@ -4,8 +4,14 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
 private fun factorial(n: Int): Int {
-    TODO("Add your solution here")
+    var result: Int = 1
+
+    for (i in n downTo 1)
+        result *= i
+
+    return result
 }
+
 
 private class Test {
     @Test

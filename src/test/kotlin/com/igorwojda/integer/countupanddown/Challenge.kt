@@ -4,8 +4,20 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
 private fun countUpAndDown(n: Int): List<Int> {
-    TODO("Add your solution here")
+    val list = mutableListOf<Int>()
+    for (i in 0..n) {
+        list.add(i)
+    }
+
+    val number = n - 1
+
+    for (i in number downTo 0)
+        if (n != 0)
+            list.add(i)
+
+    return list
 }
+
 
 private class Test {
     @Test
