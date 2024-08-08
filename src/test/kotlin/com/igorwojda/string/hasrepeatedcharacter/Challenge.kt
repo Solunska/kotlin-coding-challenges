@@ -4,7 +4,17 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
 private fun hasRepeatedChar(str: String): Boolean {
-    TODO("Add your solution here")
+    val list: List<Int> = str
+        .groupBy { it }
+        .map { it.value.size }
+
+    for (i in list.indices) {
+        if (list[i] != 1) {
+            return true
+        }
+    }
+
+    return false
 }
 
 private class Test {

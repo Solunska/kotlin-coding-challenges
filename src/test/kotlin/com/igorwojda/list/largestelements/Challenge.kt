@@ -5,26 +5,11 @@ import org.junit.jupiter.api.Test
 import java.util.*
 
 private fun largestElements(list: List<Int>, count: Int): List<Int> {
-    if (list.size <= count) {
+    if (list.size == count) {
         return list
+    } else {
+        return list.sorted().reversed().dropLast(list.size - count).reversed()
     }
-
-    val priorityQueue = PriorityQueue<Int>()
-
-    repeat(count) {
-        priorityQueue.add(list[it])
-    }
-
-    list
-        .drop(count)
-        .forEach {
-            if (it > priorityQueue.peek()) {
-                priorityQueue.poll()
-                priorityQueue.add(it)
-            }
-        }
-
-    return priorityQueue.toList()
 }
 
 private class Test {

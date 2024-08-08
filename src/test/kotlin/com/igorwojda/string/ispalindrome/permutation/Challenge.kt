@@ -4,7 +4,11 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
 private fun isPermutationPalindrome(str: String): Boolean {
-    TODO("Add your solution here")
+    return str
+        .groupBy { it }
+        .map { it.value }
+        .map { it.size }
+        .count { it % 2 == 1 } == 1
 }
 
 private class Test {

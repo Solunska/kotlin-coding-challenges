@@ -51,43 +51,43 @@ multiple times and be persistent over time.
 
 **Beginner**
 
-- [Capitalize sentence](src/test/kotlin/com/igorwojda/string/capitalizesentence)
-- [Get odd numbers](src/test/kotlin/com/igorwojda/integer/getodd)
-- [Range contains range?](src/test/kotlin/com/igorwojda/range/containsrange)
-- [Add up to](src/test/kotlin/com/igorwojda/integer/addupto)
-- [Linear search](src/test/kotlin/com/igorwojda/list/search/linearsearch)
-- [Count down](src/test/kotlin/com/igorwojda/integer/countdown)
-- [Count up and down](src/test/kotlin/com/igorwojda/integer/countupanddown)
-- [Format train route](src/test/kotlin/com/igorwojda/list/formattrainroute)
-- [Generate all pairs](src/test/kotlin/com/igorwojda/integer/generateallpairs)
-- [Count unique values](src/test/kotlin/com/igorwojda/list/countuniquevalues)
-- [Print number](src/test/kotlin/com/igorwojda/integer/printnumber/basic)
-- [Print number with steps](src/test/kotlin/com/igorwojda/integer/printnumber/steps)
-- [Power](src/test/kotlin/com/igorwojda/integer/power)
-- [Factorial](src/test/kotlin/com/igorwojda/integer/factorial)
-- [Product](src/test/kotlin/com/igorwojda/list/product)
-- [Capitalize first](src/test/kotlin/com/igorwojda/list/capitalizefirst)
-- [Decapitalize const](src/test/kotlin/com/igorwojda/string/decapitalizeconst)
-- [Longest word](src/test/kotlin/com/igorwojda/string/longestword)
-- [Reverse list](src/test/kotlin/com/igorwojda/list/reverse)
+- [Capitalize sentence](src/test/kotlin/com/igorwojda/string/capitalizesentence) DONE
+- [Get odd numbers](src/test/kotlin/com/igorwojda/integer/getodd) DONE
+- [Range contains range?](src/test/kotlin/com/igorwojda/range/containsrange) DONE
+- [Add up to](src/test/kotlin/com/igorwojda/integer/addupto) DONE
+- [Linear search](src/test/kotlin/com/igorwojda/list/search/linearsearch) DONE
+- [Count down](src/test/kotlin/com/igorwojda/integer/countdown) DONE
+- [Count up and down](src/test/kotlin/com/igorwojda/integer/countupanddown) DONE
+- [Format train route](src/test/kotlin/com/igorwojda/list/formattrainroute) DONE
+- [Generate all pairs](src/test/kotlin/com/igorwojda/integer/generateallpairs) DONE
+- [Count unique values](src/test/kotlin/com/igorwojda/list/countuniquevalues) DONE
+- [Print number](src/test/kotlin/com/igorwojda/integer/printnumber/basic) DONE
+- [Print number with steps](src/test/kotlin/com/igorwojda/integer/printnumber/steps) DONE
+- [Power](src/test/kotlin/com/igorwojda/integer/power) DONE
+- [Factorial](src/test/kotlin/com/igorwojda/integer/factorial) DONE
+- [Product](src/test/kotlin/com/igorwojda/list/product) DONE
+- [Capitalize first](src/test/kotlin/com/igorwojda/list/capitalizefirst) DONE
+- [Decapitalize const](src/test/kotlin/com/igorwojda/string/decapitalizeconst) DONE
+- [Longest word](src/test/kotlin/com/igorwojda/string/longestword) DONE
+- [Reverse list](src/test/kotlin/com/igorwojda/list/reverse) DONE
 
 **Intermediate**
 
-- [Is palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/basic)
-- [Is tolerant palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/tolerant)
-- [Is permutation palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/permutation)
-- [Is anagram](src/test/kotlin/com/igorwojda/string/isanagram)
-- [Max occurring char](src/test/kotlin/com/igorwojda/string/maxoccurringchar)
-- [String reverse](src/test/kotlin/com/igorwojda/string/reverse)
-- [Find the vowels](src/test/kotlin/com/igorwojda/string/vowels)
-- [Int reverse](src/test/kotlin/com/igorwojda/integer/reverse)
+- [Is palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/basic) DONE
+- [Is tolerant palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/tolerant) DONE
+- [Is permutation palindrome](src/test/kotlin/com/igorwojda/string/ispalindrome/permutation) DONE
+- [Is anagram](src/test/kotlin/com/igorwojda/string/isanagram) DONE
+- [Max occurring char](src/test/kotlin/com/igorwojda/string/maxoccurringchar) DONE
+- [String reverse](src/test/kotlin/com/igorwojda/string/reverse) DONE
+- [Find the vowels](src/test/kotlin/com/igorwojda/string/vowels) DONE
+- [Int reverse](src/test/kotlin/com/igorwojda/integer/reverse) DONE
 - [Pyramid generator](src/test/kotlin/com/igorwojda/integer/pyramidgenerator)
 - [Steps generator](src/test/kotlin/com/igorwojda/integer/stepsgenerator)
-- [Fizz Buzz](src/test/kotlin/com/igorwojda/integer/fizzbuzz)
+- [Fizz Buzz](src/test/kotlin/com/igorwojda/integer/fizzbuzz) DONE
 - [Caesar cipher](src/test/kotlin/com/igorwojda/string/caesarcipher)
-- [Has repeated char](src/test/kotlin/com/igorwojda/string/hasrepeatedcharacter)
-- [Smallest elements](src/test/kotlin/com/igorwojda/list/smallestelements)
-- [Largest elements](src/test/kotlin/com/igorwojda/list/largestelements)
+- [Has repeated char](src/test/kotlin/com/igorwojda/string/hasrepeatedcharacter) DONE
+- [Smallest elements](src/test/kotlin/com/igorwojda/list/smallestelements) DONE
+- [Largest elements](src/test/kotlin/com/igorwojda/list/largestelements) DONE
 
 **Advanced** 
 

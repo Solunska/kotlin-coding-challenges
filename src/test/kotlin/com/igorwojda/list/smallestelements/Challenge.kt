@@ -4,7 +4,12 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
 private fun smallestElements(list: List<Int>, count: Int): List<Int> {
-    TODO("Add your solution here")
+    if (list.size == count) {
+        return list
+    } else {
+        return list.sorted().dropLast(list.size - count).reversed()
+    }
+
 }
 
 private class Test {

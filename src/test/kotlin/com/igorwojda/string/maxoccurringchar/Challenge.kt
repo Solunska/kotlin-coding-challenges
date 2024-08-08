@@ -4,7 +4,12 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
 private fun maxOccurringChar(str: String): Char? {
-    TODO("Add your solution here")
+    if (str == "")
+        return null
+    return str
+        .groupBy { it }
+        .maxBy { it.value.size }
+        .key
 }
 
 private class Test {

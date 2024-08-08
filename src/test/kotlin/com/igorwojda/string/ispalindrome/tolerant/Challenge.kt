@@ -4,7 +4,31 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
 private fun isTolerantPalindrome(str: String): Boolean {
-    TODO("Add your solution here")
+    var startIndex: Int = 0
+    var endIndex: Int = str.length - 1
+
+    var removed: Boolean = false
+
+    while (startIndex <= endIndex) {
+        if (str[startIndex] != str[endIndex]) {
+            if (removed) {
+                return false
+            } else
+                removed = true
+
+            if (str[startIndex + 1] == str[endIndex])
+                startIndex++
+            else if (str[endIndex - 1] == str[startIndex])
+                endIndex--
+            else
+                return false
+        }
+
+        startIndex++
+        endIndex--
+    }
+
+    return true
 }
 
 private class Test {
